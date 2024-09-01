@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images.jfif);
+
+}
+img{
+    padding: 50px;
+    border-radius: 50%;
+    animation: fanmove linear infinite;
+
+}
+@keyframes fanmove{
+    100%{
+        transform:rotate(360deg);
+
+    }
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(3, 168, 168);
+
+}
+.a{
+    background-color: lightgreen;
+    color: crimson;
+}
+.b{
+    background-color: red;
+}
+.c{
+    background-color: blue;
+
+}
